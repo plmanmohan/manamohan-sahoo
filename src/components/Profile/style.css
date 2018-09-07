@@ -1,0 +1,40 @@
+.container {
+  background-color: #fff;
+  box-sizing: border-box;
+  width: 212px;
+  padding: 10px 10px;
+  position: relative;
+  box-shadow: 0 0 5px 5px #ccc;
+  margin: 50px 18px 20px 19px;
+  float: left;
+}
+
+.avatar-img {
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  top: -40px;
+  border-radius: 50%;
+  left: 50%;
+  margin-left: -40px;
+}
+
+.userName {
+  font-size: 18px;
+  font-weight: normal;
+  color: #e93939;
+  text-align: center;
+  margin: 50px 0 25px 0;
+}
+
+.delete {
+  background: none;
+  border: none;
+  font-size: 14px;
+  color: #007fa3;
+  cursor: pointer;
+}
+
+.delete:hover {
+  color: #024b5f;
+}

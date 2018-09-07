@@ -1,0 +1,240 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test PearsonUsers component Render <PearsonUsers/> 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <PearsonUsers />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <h1
+          className="heading"
+>
+          Pearson User Management 
+</h1>,
+        <div
+          className="user-container"
+>
+          <div
+                    className="loader"
+          >
+                    <img
+                              alt="loading"
+                              height={80}
+                              src="https://upload.wikimedia.org/wikipedia/commons/3/3a/Gray_circles_rotate.gif"
+                              width={80}
+                    />
+          </div>
+          
+</div>,
+      ],
+      "className": "pearon-users",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Pearson User Management ",
+          "className": "heading",
+        },
+        "ref": null,
+        "rendered": "Pearson User Management ",
+        "type": "h1",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <div
+              className="loader"
+>
+              <img
+                            alt="loading"
+                            height={80}
+                            src="https://upload.wikimedia.org/wikipedia/commons/3/3a/Gray_circles_rotate.gif"
+                            width={80}
+              />
+</div>,
+            "",
+          ],
+          "className": "user-container",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <img
+                alt="loading"
+                height={80}
+                src="https://upload.wikimedia.org/wikipedia/commons/3/3a/Gray_circles_rotate.gif"
+                width={80}
+/>,
+              "className": "loader",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "alt": "loading",
+                "height": 80,
+                "src": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Gray_circles_rotate.gif",
+                "width": 80,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "img",
+            },
+            "type": "div",
+          },
+          "",
+        ],
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <h1
+            className="heading"
+>
+            Pearson User Management 
+</h1>,
+          <div
+            className="user-container"
+>
+            <div
+                        className="loader"
+            >
+                        <img
+                                    alt="loading"
+                                    height={80}
+                                    src="https://upload.wikimedia.org/wikipedia/commons/3/3a/Gray_circles_rotate.gif"
+                                    width={80}
+                        />
+            </div>
+            
+</div>,
+        ],
+        "className": "pearon-users",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Pearson User Management ",
+            "className": "heading",
+          },
+          "ref": null,
+          "rendered": "Pearson User Management ",
+          "type": "h1",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <div
+                className="loader"
+>
+                <img
+                                alt="loading"
+                                height={80}
+                                src="https://upload.wikimedia.org/wikipedia/commons/3/3a/Gray_circles_rotate.gif"
+                                width={80}
+                />
+</div>,
+              "",
+            ],
+            "className": "user-container",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <img
+                  alt="loading"
+                  height={80}
+                  src="https://upload.wikimedia.org/wikipedia/commons/3/3a/Gray_circles_rotate.gif"
+                  width={80}
+/>,
+                "className": "loader",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "alt": "loading",
+                  "height": 80,
+                  "src": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Gray_circles_rotate.gif",
+                  "width": 80,
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "img",
+              },
+              "type": "div",
+            },
+            "",
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    "attachTo": undefined,
+    "hydrateIn": undefined,
+  },
+}
+`;
